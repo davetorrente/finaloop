@@ -55,7 +55,7 @@ if(isset($post['submit']))
 	// }
 }
 
-$database->query('SELECT * FROM posts');
+$database->query('SELECT * FROM posts ');
 
 $rows = $database->resultset();
 
